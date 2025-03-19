@@ -1,0 +1,53 @@
+footer {
+ background-color: rgb(228, 228, 228);
+ padding-bottom: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 11px;
+  padding: 60px 70px;
+}
+.grid-container div ul {
+  list-style-type: none;
+  line-height: 25px;
+}
+.grid-container div ul li:first-child {
+  font-weight: bold;
+}
+.signup-details {
+  margin-top: 25px;
+  font-size: 12px;
+}
+.signup-details p:nth-child(2){
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+.socialmedia-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.socialmedia-icons img {
+  width: 24px;
+  margin-right: 20px;
+}
+.copyright {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 25px;
+}
+.logo-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer {
+  width: 90px;
+}
+.country-currency {
+  text-align: center;
+  font-weight: 500;
+}

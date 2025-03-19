@@ -1,0 +1,43 @@
+nav {
+  position: relative;
+  color: rgb(34, 34, 34);
+  margin-top: 10px;
+}
+nav .main-nav {
+  display: flex;
+  justify-content: center;
+}
+nav .main-nav span {
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.search-container {
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+}
+.search-container img {
+  position: absolute;
+  width: 25px;
+}
+.search-container input {
+  padding-left: 30px;
+  padding-bottom: 7px;
+  border: none;
+  border-bottom: 1px solid rgb(34, 34, 34); 
+  font-weight: 500;
+  width: 120px;
+}
+.search-container input::placeholder{
+  color: rgb(34, 34, 34)
+}
+.delivery-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 45px;
+}
+.delivery-details span {
+  font-size: 12px;
+  font-weight: 500;
+}
